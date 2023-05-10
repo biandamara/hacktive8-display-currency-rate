@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hacktive8-display-currency-rate/static/css/main.8aece952.css",
+    "main.js": "/hacktive8-display-currency-rate/static/js/main.12d807af.js",
+    "static/js/787.33dc3b29.chunk.js": "/hacktive8-display-currency-rate/static/js/787.33dc3b29.chunk.js",
+    "index.html": "/hacktive8-display-currency-rate/index.html",
+    "main.8aece952.css.map": "/hacktive8-display-currency-rate/static/css/main.8aece952.css.map",
+    "main.12d807af.js.map": "/hacktive8-display-currency-rate/static/js/main.12d807af.js.map",
+    "787.33dc3b29.chunk.js.map": "/hacktive8-display-currency-rate/static/js/787.33dc3b29.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8aece952.css",
+    "static/js/main.12d807af.js"
+  ]
+}
