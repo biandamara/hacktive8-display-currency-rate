@@ -1,0 +1,92 @@
+*,
+p,
+a,
+th,
+tr,
+td {
+  color: rgb(255, 255, 255);
+  padding: 0;
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+th,
+td,
+td {
+  padding: 1rem !important;
+}
+
+#app {
+  background-color: rgb(33, 212, 252);
+  background-image: linear-gradient(
+    19deg,
+    rgb(33, 212, 253) 0%,
+    rgb(183, 33, 255) 100%
+  );
+  padding: 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#table,
+#footer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex: 1;
+}
+
+/* header component */
+.header .logo {
+  height: 50px;
+  width: 50px;
+}
+
+/* table component */
+.table {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 5px rgb(0, 0, 0);
+  width: 80%;
+  margin: 0;
+  border-radius: 15px;
+}
+
+/* footer component */
+.footer {
+  text-align: center;
+}
+
+.footer a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  .table {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #app {
+    padding: 0rem;
+  }
+
+  #header,
+  #table,
+  #footer {
+    padding: 1rem;
+  }
+
+  #table {
+    justify-content: start;
+    overflow: auto;
+  }
+}
